@@ -1,0 +1,6 @@
+{% extends 'base.html' %} {% block content %}
+<h1>Welcome to your profile, {{ current_user.username }}!</h1>
+<h2>Your uploaded files:</h2>
+{% for url in file_urls %}
+<img src="{{ url }}" style="width: 200px; height: 200px; margin: 10px" />
+{% endfor %} {% endblock %}

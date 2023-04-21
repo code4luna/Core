@@ -1,22 +1,36 @@
+/* Increase font sizes and spacing */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.dropzone {
-    border: 2px dashed #007bff;
-    border-radius: 5px;
-    background-color: #f8f9fa;
-    min-height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.dropzone .dz-message {
-    color: #007bff;
     font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0;
+    line-height: 1.5;
+    margin-top: 60px;
+}
+
+/* Make buttons bigger */
+.btn {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+}
+
+/* Remove underline from links and change visited link color */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:visited {
+    color: #6c757d;
+}
+
+/* Streamline navbar */
+.navbar {
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.navbar-nav {
+    gap: 1rem;
 }
